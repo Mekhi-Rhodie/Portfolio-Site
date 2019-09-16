@@ -2,3 +2,28 @@ body{
     background-color: #E0E0E0;   
     font-family: 'Courier New', Courier, monospace;
 }
+
+#header-content{
+    background-image: url(../images/portfolio-background.png);
+    background-size: cover;
+    text-shadow: 2px 2px 2.7px #FCFCFC;
+    text-align: center;
+    padding: 2%;
+}
+
+header{
+    font-size: 45px;
+}
+
+#slogan{
+    margin-top: 15px;
+    margin-bottom: 1px;
+    font-size: 30px;
+}
+
+#footer-content{
+    background-image: url(../images/portfolio-background.png);
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
