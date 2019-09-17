@@ -26,4 +26,16 @@ header{
     background-size: cover;
     margin-top: 50px;
     margin-bottom: 0px;
+    text-shadow: 2px 2px 2.7px #FCFCFC;
+}
+
+#sections{
+    margin-top: 100px; 
+}
+
+.box{
+    border-style: solid;
+    border-color: #070707;
+    text-align: center;
+    box-shadow: 2px 2px 3px #F7F8F9;
 }
