@@ -21,6 +21,24 @@ header{
     font-size: 30px;
 }
 
+#navigation{
+    margin-top: 50px;
+}
+
+main{
+    margin-top: 75px;
+}
+
+#about-me-image{
+    height: 300px;
+    width: 300px;
+}
+
+img{
+    height: 170px;
+    width: 190px;
+}
+
 #footer-content{
     background-image: url(../images/portfolio-background.png);
     background-size: cover;
@@ -39,3 +57,4 @@ header{
     text-align: center;
     box-shadow: 2px 2px 3px #F7F8F9;
 }
+
