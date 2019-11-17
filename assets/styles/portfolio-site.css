@@ -9,6 +9,7 @@
     text-shadow: 2px 2px 2.7px #FCFCFC;
     text-align: center;
     padding: 2%;
+    box-shadow: 5px 5px 7px black;
 }
 
 header{
@@ -45,6 +46,7 @@ img{
     margin-top: 50px;
     margin-bottom: 0px;
     text-shadow: 2px 2px 2.7px #FCFCFC;
+    box-shadow: 5px 5px 7px black;
 }
 
 #sections{
@@ -55,7 +57,8 @@ img{
     border-style: solid;
     border-color: #070707;
     text-align: center;
-    box-shadow: 2px 2px 3px #F7F8F9;
+    border-radius: 10px;
+    box-shadow: 5px 5px 7px black;;
 }
 
 @media screen and (min-width: 768px) and (max-width: 990px) {
