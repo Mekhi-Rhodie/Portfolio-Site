@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/styles/portfolio-site.css">
     <link rel="stylesheet" href="assets/styles/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 </head>
 
 <body class="body">
@@ -24,8 +26,9 @@
             <div class="col-lg-12">
                 <div id="navigation">
                     <nav>
-                        <a class="btn btn-primary stretched-link" href="index.html">Home</a>
-                        <a class="btn btn-primary stretched-link" href="resume.html">Resume</a>
+                        <a id="home" class="btn btn-primary stretched-link" href="index.html">Home</a>
+                        <a class="btn btn-primary stretched-link" target="_blank"
+                            href="assets/docs/Resume.pdf">Resume</a>
                         <a class="btn btn-primary stretched-link" href="projects.html">Projects</a>
                         <a class="btn btn-primary stretched-link" href="#footer-content">Contact</a>
                     </nav>
@@ -42,19 +45,19 @@
                         <div id="about-me">
                             <h1 id="sub-title">About Me</h1>
                             <br>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt
-                                ut labore et dolore magna aliqua. Tristique senectus et netus et. Et odio pellentesque
-                                diam volutpat commodo. Molestie a iaculis at erat. Nunc faucibus a pellentesque sit. Id
-                                ornare arcu odio ut sem nulla pharetra diam. Scelerisque eu ultrices vitae auctor. Odio
-                                morbi quis commodo odio aenean sed adipiscing diam donec. Iaculis urna id volutpat lacus
-                                laoreet non. Curabitur gravida arcu ac tortor dignissim convallis aenean et. Congue
-                                quisque egestas diam in arcu cursus. Risus nullam eget felis eget nunc lobortis mattis.
-                                Curabitur vitae nunc sed velit. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet.
-                                Molestie nunc non blandit massa enim nec. Leo urna molestie at elementum. Neque vitae
-                                tempus quam pellentesque nec nam. Dui accumsan sit amet nulla. Pretium nibh ipsum
-                                consequat nisl vel pretium lectus. Amet commodo nulla facilisi nullam.
+                            <p id="about-me-para">
+                                Hello, I am a Front-End Web Developer. I am well versed in HTML, CSS, and JavaScript.
+                                Also, I am adept in jQuery, Bootstrap 4, SASS, and I am currently learning React.js. I
+                                love finding and researching different JavaScript libraries. Currently my favorite JS
+                                library is Moment.js, I have solid experience working in teams to complete a project
+                                while utilizing Git Version control. I also have basic knowledge of the programming
+                                language Python, something I plan on expanding upon in the near future. Even thought my
+                                passion is Front-end Development, I have a strong grasp of back-end technologies as
+                                well. These technologies are… Node.js, Express.js, and mongo DB. Currently I have no
+                                professional experience in the industry but, what I lack in experience I make up for
+                                with an extremely strong work ethic and a passion for coding. I am eager to learn all I
+                                can and CONTINUE learning about different web technologies and computer science in
+                                general.
                             </p>
                         </div>
                     </div>
@@ -66,40 +69,31 @@
             <div class="col-sm-4">
                 <section id="box1" class="box">
                     <h3 class="section-heading">Font-End Web Development</h3>
-                    <details>
-                        <summary>Click Me</summary>
-                        <p class="summary-items">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis maxime sit quidem sequi
-                            fuga modi quo tempora quia ad. Perferendis amet tenetur repudiandae enim veniam. Doloremque
-                            eaque similique exercitationem placeat!
-                        </p>
-                    </details>
+                    <p class="summary-items">
+                        I have a good understanding of beginner to intermediate level computer networking concepts
+                        such as, the OSI Model, Networking Topologies, and Computer network Hardware. I can also
+                        effectively trouble shoot and solve common Computer networking issues
+                    </p>
                 </section>
             </div>
             <div class="col-sm-4">
                 <section id="box2" class="box">
                     <h3 class="section-heading">Back-End Web Development</h3>
-                    <details>
-                        <summary>Click Me</summary>
-                        <p class="summary-items">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis maxime sit quidem sequi
-                            fuga modi quo tempora quia ad. Perferendis amet tenetur repudiandae enim veniam. Doloremque
-                            eaque similique exercitationem placeat!
-                        </p>
-                    </details>
+                    <p class="summary-items">
+                        I can setup a basic Node express server and create/run small server-side programs. I can
+                        also, at the very least, comprehend basic and common CRUD tasks. I also have experience
+                        working with back-end libraries like, axios.js, inquier.js, and mongoose.js.
+                    </p>
                 </section>
             </div>
             <div class="col-sm-4">
                 <section id="box3" class="box">
                     <h3 class="section-heading">Basic Computer Networking</h3>
-                    <details>
-                        <summary>Click Me</summary>
-                        <p class="summary-items">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis maxime sit quidem sequi
-                            fuga modi quo tempora quia ad. Perferendis amet tenetur repudiandae enim veniam. Doloremque
-                            eaque similique exercitationem placeat!
-                        </p>
-                    </details>
+                    <p class="summary-items">
+                        I have a good understanding of beginner to intermediate level computer networking concepts
+                        such as, the OSI Model, Networking Topologies, and Computer network Hardware. I can also
+                        effectively troubleshoot and solve common Computer networking issues.
+                    </p>
                 </section>
             </div>
         </div>
@@ -121,5 +115,6 @@
             </div>
     </footer>
 </body>
+<script src="assets/scripts/index.js"></script>
 
 </html>
