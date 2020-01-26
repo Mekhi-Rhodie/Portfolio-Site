@@ -57,24 +57,26 @@ img{
 }
 
 #sections{
-    margin-top: 100px; 
-}
-
-.summary-items{
-    display: none;
-}
-
-section:hover .summary-items{
-    display: block;
+    margin-top: 50px; 
 }
 
 .box{
-    border-style: solid;
-    border-color: #070707;
+    padding: 10px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 5px 5px 7px black;;
+    box-shadow: 5px 5px 7px black;
 }
+
+.summary-items{
+    transition-duration: 500ms;
+    transition-property: all;
+}
+
+.box:hover .summary-items{
+
+}
+
+
 
 @media screen and (min-width: 768px) and (max-width: 990px) {
     #about-me{
