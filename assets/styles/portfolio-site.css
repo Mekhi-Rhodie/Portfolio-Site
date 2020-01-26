@@ -93,3 +93,8 @@ img{
         margin-left: 100px;
     }    
 }
+
+#table-head{
+    font-weight: bold;
+    font-size: 20px;
+}
