@@ -70,7 +70,8 @@ main{
     border-radius: 10px;
     box-shadow: 5px 5px 7px black;
     height: 300px;
-    transition-duration: 900ms;
+    opacity: .1;
+    transition-duration: 600ms;
     transition-property: all;
 }
 
@@ -83,7 +84,6 @@ ul{
 
 .summary-items{
     line-height: 30px;
-    opacity: .25;
     transition-duration: 700ms;
     transition-property: all;
 }
@@ -93,7 +93,7 @@ ul{
     transform: scale(1.1);
 }
 
-.box:hover .summary-items{
+.box:hover ,.summary-items{
    text-shadow: 2.5px 2.5px 5px #8C8C8C;
    opacity: 1;
 }
