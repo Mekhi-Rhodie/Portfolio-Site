@@ -35,6 +35,7 @@ main{
 #about-me-image{
     height: 300px;
     width: 300px;
+    transform: rotate(90deg);
 }
 
 #about-me-para{
@@ -67,6 +68,7 @@ main{
 
 .contact-head{
     color: whitesmoke;
+    margin: 0px;
 }
 
 .box{
@@ -112,10 +114,14 @@ ul{
     font-size: 20px;
 }
 
-a{
+#email{
     font-size: 25px
 }
 
+.social-icons{
+    width: 10px;
+    height: 10px;
+}
 
 @media screen and (min-width: 768px) and (max-width: 990px) {
     #about-me{
