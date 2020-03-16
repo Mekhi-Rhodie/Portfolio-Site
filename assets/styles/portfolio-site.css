@@ -144,4 +144,8 @@ ul{
     .box {
         margin: 10px;
     }
+
+    #about-me-image{
+        transform: rotate(90deg);
+    }
 }
